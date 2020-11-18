@@ -3,13 +3,11 @@
     src: url('/Poppins/Poppins-Regular.ttf');
 }
 
+
 body {
     position: relative;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
-    background-image: url('/img/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: #BFB989;
 }
 
@@ -55,73 +53,6 @@ body {
     color: #3E4233;
     padding: 30px;
 }
-
-/* CONTENT STYLING */
-/* .content-area {
-    background-image: url("/img/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-
-.title {
-    position: absolute;
-    width: 744px;
-    height: 92px;
-    left: 162px;
-    top: 255px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 58px;
-    line-height: 91px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #3E4233;
-}
-
-.para {
-    position: absolute;
-    width: 1046px;
-    height: 216px;
-    left: 162px;
-    top: 383px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    color: #3E4233;
-}
-
-.content-button {
-    position: absolute;
-    width: 200px;
-    height: 99px;
-    left: 162px;
-    top: 673px;
-    background: #3E4233;
-    border-radius: 10px;
-    color: #BFB989;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.content-button:hover{
-    background-color: #BFB989;
-    color: #3E4233;
-    transition: 0.8s ease-out;
-}
-
-
-
 
 /* Footer */
 .footer {
@@ -186,5 +117,50 @@ body {
 .social-links a:hover {
     text-decoration: none;
     color: #BFB989;
+}
+
+
+.service-area {
+    height: 500px;
+    margin-top: 15em;
+}
+
+.images1 {
+    float: left;
+    margin-left:5em;
+    filter: drop-shadow(0px 10px 21px #3E4233);
+}
+
+.images2 {
+    float: left;
+    margin-left: 10em;
+    filter: drop-shadow(0px 10px 21px #3E4233);
+}
+
+.images3 {
+    float: left;
+    margin-left: 10em;
+    filter: drop-shadow(0px 10px 21px #3E4233);
+}
+
+.bac {
+    margin-top: 2em;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+.images1 img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.images2 img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.images3 img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 

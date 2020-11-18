@@ -4,21 +4,11 @@
 }
 
 body {
-    top: 0;
-    margin:0;
-    padding: 0;
-    bottom: 0;
-    width: 1920px;
-    height: 1080px;
-    background-image: url("/img/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    margin: 0 auto;
     font-family: "Poppins", sans-serif;
 }
-.navbar {
-    width: 1920px;
-    height: 20%;
-}
+
 
 .logo {
     position: absolute;
@@ -64,14 +54,9 @@ body {
 
 /* CONTENT STYLING */
 .content-area {
-    /* background-image: url('/img/background.png');
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat; */
-    /* height: 100vh; */
-    width: 1920px;
-    height: 800px;
-    top: 0;
-    bottom: 0;
 }
 
 
@@ -90,7 +75,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: #3E4233;
 }
 
 .para {
@@ -106,7 +91,7 @@ body {
     line-height: 36px;
     display: flex;
     align-items: center;
-    color: #000000;
+    color: #3E4233;
 }
 
 .content-button {
@@ -186,5 +171,16 @@ body {
 
 
 
+
+/* -------- ABOUT PAGE STYLE ------------- */
+
+.service-area {
+    background-color: #BFB989;
+    width: 100vh;
+}
+
+.images1 {
+    float: left;
+}
 
 

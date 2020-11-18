@@ -68,8 +68,8 @@ body {
     top: 255px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 61px;
+    font-weight: 600;
+    font-size: 58px;
     line-height: 91px;
     /* identical to box height */
     display: flex;
@@ -87,7 +87,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 36px;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ body {
 
 .content-button {
     position: absolute;
-    width: 235px;
+    width: 200px;
     height: 99px;
     left: 162px;
     top: 673px;

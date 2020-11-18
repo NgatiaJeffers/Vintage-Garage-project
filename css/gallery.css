@@ -1,3 +1,6 @@
+/* ===========  Gallery page Styling============ */
+
+
 @font-face {
     font-family: "Poppins";
     src: url('/Poppins/Poppins-Regular.ttf');
@@ -8,10 +11,11 @@ body {
     position: relative;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
-    background-image: url('/img/b.png');
+    /* background-image: url('/img/b.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* background-color: #BFB989; */
+    background-color: #fff;
 }
 
 
@@ -123,49 +127,79 @@ body {
 }
 
 
-.service-area {
-    height: 500px;
-    margin-top: 15em;
+
+.gallery-area {
+    height: 300px;
+    margin-top: 8em;
 }
 
-.images1 {
+.image1 {
+    float: left;
+    margin-left:10em;
+
+}
+
+.image2 {
     float: left;
     margin-left:5em;
-    filter: drop-shadow(0px 10px 21px #3E4233);
+
 }
 
-.images2 {
+.image3 {
     float: left;
-    margin-left: 10em;
-    filter: drop-shadow(0px 10px 21px #3E4233);
+    margin-left:5em;
+
 }
 
-.images3 {
-    float: left;
-    margin-left: 10em;
-    filter: drop-shadow(0px 10px 21px #3E4233);
-}
-
-.bac {
+.gallery-area1 {
+    height: 400px;
     margin-top: 2em;
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
 }
 
-.images1 img:hover {
+.imageone {
+    float: left;
+    margin-left:10em;
+
+}
+
+.imagetwo {
+    float: left;
+    margin-left:5em;
+
+}
+
+.imagethree {
+    float: left;
+    margin-left:5em;
+
+}
+
+.image1 img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
-.images2 img:hover {
+.image2 img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
-.images3 img:hover {
+.image3 img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
+.imageone img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 
+.imagetwo img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 
+.imagethree img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

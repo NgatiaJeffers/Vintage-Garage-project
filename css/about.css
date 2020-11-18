@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Poppins";
-    src: url('/Poppins/Poppins-Regular.ttf');
+    src: url('../Poppins/Poppins-Regular.ttf');
 }
 
 
@@ -8,7 +8,7 @@ body {
     position: relative;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
-    background-image: url('/img/b.png');
+    background-image: url('../img/b.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #BFB989; */

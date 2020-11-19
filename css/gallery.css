@@ -224,3 +224,44 @@ body {
     left: -61px;
     top: 556px;
 }
+
+.join {
+    position: absolute;
+    width: 600px;
+    height: 96px;
+    left: 17em;
+    top: 366px;
+}
+
+.join h3 {
+    font-family:"Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+
+.news {
+    position: absolute;
+    width: 600px;
+    height: 96px;
+    left: 30em;
+    top: 366px;
+}
+
+.news p {
+    font-family:"Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #BFB989;
+}
